@@ -7,9 +7,10 @@ $(function(){
     });
     $('#date_from').daterangepicker({
         singleDatePicker: true,
-        autoUpdateInput: false,
+        // autoUpdateInput: false,
         locale: {
-            cancelLabel: 'Clear'
+            // cancelLabel: 'Clear',
+            format: 'DD_MM_YYYY'
         }
     });
 });

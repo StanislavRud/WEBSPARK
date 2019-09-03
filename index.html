@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
     <body>
@@ -27,8 +28,16 @@
                 </div>
                 <div class="third_line">
                     <p>Date</p>
-                    <input type="text" class="form-control" id="date_from" placeholder="from">
-                    <input type="text" class="form-control" id="date_to" placeholder="date to" required>
+                    <div class="date_form1" id="date_from">
+                        <input type="text" class="form_date_from" placeholder="from" />
+                        <button type="button" class="btn-remove" data-toggle="datepicker" data-target-name="sample-date">
+                            <span class="glyphicon glyphicon-remove"></span>
+                        </button>
+                        <button type="button" class="btn-calendar" data-toggle="datepicker" data-target-name="sample-date">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                        </button>
+                    </div>
+                    <input type="text" class="form_date_to" id="date_to" placeholder="date to" required>
                 </div>
             </div>
         </header>
