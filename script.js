@@ -1,16 +1,28 @@
-$(function(){
-    $('#date_to').daterangepicker({
-        singleDatePicker: true,
-        locale: {
-            format: 'DD_MM_YYYY'
-        }
+$(function () {
+    $('#area1').click(function () {
+        $('#datetimepicker1').data("DateTimePicker").clear();
     });
-    $('#date_from').daterangepicker({
-        singleDatePicker: true,
-        // autoUpdateInput: false,
-        locale: {
-            // cancelLabel: 'Clear',
-            format: 'DD_MM_YYYY'
-        }
+    $('#datetimepicker1').datetimepicker({
+        format: 'DD_MM_YYYY'
     });
 });
+
+$(function () {
+    $('#area2').click(function () {
+        $('#datetimepicker2').data("DateTimePicker").clear();
+    });
+    $('#datetimepicker2').datetimepicker({
+            format: 'DD_MM_YYYY',
+    });
+
+
+});
+
+
+
+// $(function () {
+//     $('#datetimepicker2').datetimepicker();
+//     $('.glyphicon-remove').click(function () {
+//         $('#datetimepicker2').data("DateTimePicker").clear();
+//     });
+// });
