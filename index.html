@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css" />
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/moment-with-locales.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-datetimepicker.min.js"></script>
     <script src="script.js"></script>
 </head>
     <body>
@@ -27,26 +30,41 @@
                 </div>
                 <div class="third_line">
                     <p>Date</p>
-                    <input type="text" class="form-control" id="date_from" placeholder="from">
-                    <input type="text" class="form-control" id="date_to" placeholder="date to" required>
+                    <div class="input-group date" id="datetimepicker1">
+                        <input type="text" class="form-control" placeholder="From"/>
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-remove" id="area1"></span>
+                        </span>
+                        <span class="input-group-addon datepickerbutton">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                    </div>
+                    <div class="input-group date" id="datetimepicker2">
+                        <input type="text" class="form-control" placeholder="09_08_2016"/>
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-remove" id="area2"></span>
+                        </span>
+                        <span class="input-group-addon datepickerbutton">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                    </div>
                 </div>
             </div>
         </header>
         <section class="main_section">
             <div class="content">
-                <div class="block1"></div>
-                <div class="block2"></div>
-                <div class="block3"></div>
-                <div class="block4"></div>
-                <div class="block5"></div>
-                <div class="block6"></div>
-                <div class="block7"></div>
-                <div class="block8"></div>
-                <div class="block9"></div>
+                <div class="block1 photo"></div>
+                <div class="block2 photo"></div>
+                <div class="block3 photo"></div>
+                <div class="block4 photo"></div>
+                <div class="block5 photo"></div>
+                <div class="block6 photo"></div>
+                <div class="block7 photo"></div>
+                <div class="block8 photo"></div>
+                <div class="block9 photo"></div>
             </div>
             <footer>
-                <button>
-                </button>
+                <input class="btn_load" type="submit" name="load_more" value="LOAD MORE">
             </footer>
         </section>
     </body>
