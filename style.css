@@ -1,134 +1,60 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0; }
+/*
+Error: Invalid CSS after "... margin: 0 auto": expected "{", was ";"
+        on line 164 of G:\Google_drive\CV\WEBSPARK\style.scss
 
-header {
-  display: flex;
-  padding: 0 calc(50% - 468px); }
-  header .logo {
-    width: 271px; }
-    header .logo img {
-      display: block;
-      margin: 0 auto; }
-  header .block_projects {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around; }
-    header .block_projects .first_line, header .block_projects .second_line, header .block_projects .third_line {
-      display: flex; }
-    header .block_projects .first_line h1 {
-      margin: 0 21px 0 0; }
-    header .block_projects .first_line p {
-      display: block;
-      padding: 5px;
-      margin: auto;
-      color: #4090db;
-      border: 1px solid #4090db;
-      text-align: center;
-      border-radius: 5px; }
-    header .block_projects .second_line p {
-      margin-right: 30px; }
-      header .block_projects .second_line p .numbers {
-        font-weight: bold; }
-    header .block_projects .third_line {
-      height: 32px; }
-      header .block_projects .third_line p {
-        display: block;
-        margin: auto 15px auto 0; }
-      header .block_projects .third_line .input-group {
-        width: 183px;
-        margin-right: 25px; }
-      header .block_projects .third_line #datetimepicker1 {
-        margin-bottom: 15px; }
-      header .block_projects .third_line .input-group.date .input-group-addon {
-        cursor: pointer;
-        padding: 6px 10px; }
+159: <<<<<<< HEAD
+160:     .content .photo:last-child {
+161: =======
+162:     .content div:last-child {
+163: >>>>>>> 280df2000e6e06aeee18966c1d9cab33a1166126
+164:       margin: 0 auto;
+165:     }
+166:  }
+167: 
+168: }
+169: 
 
-.main_section {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-top: 25px;
-  padding: 72px calc(50% - 468px);
-  background-color: #fafafa; }
-  .main_section .content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; }
-    .main_section .content .photo {
-      width: 292px;
-      height: 292px;
-      margin-bottom: 30px;
-      color: white; }
-    .main_section .content .block1 {
-      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/img1.png"); }
-    .main_section .content .block2 {
-      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/img2.png"); }
-    .main_section .content .block3 {
-      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/img3.png"); }
-    .main_section .content .block4 {
-      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/img4.png"); }
-    .main_section .content .block5 {
-      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/img5.png"); }
-    .main_section .content .block6 {
-      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/img6.png"); }
-    .main_section .content .block7 {
-      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/img7.png"); }
-    .main_section .content .block8 {
-      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/img8.png"); }
-    .main_section .content .block9 {
-      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/img9.png"); }
-
-footer {
-  margin-top: 25px; }
-  footer .btn_load {
-    border: 1px solid black;
-    border-radius: 25px;
-    padding: 5px 45px;
-    background-color: white;
-    display: block;
-    margin: 0 auto;
-    outline: 0;
-    outline-offset: 0; }
-  footer .btn_load:hover {
-    color: #0077b5;
-    border: 1px solid #0077b5;
-    cursor: pointer;
-    box-shadow: 0px 0px 5px #0077b5; }
-
-@media screen and (max-width: 975px) {
-  header {
-    padding: 0 calc(50% - 410px); }
-
-  .main_section {
-    padding: 72px calc(50% - 310px); }
-    .main_section .content .photo:last-child {
-      margin: 0 auto; } }
-@media screen and (max-width: 660px) {
-  header {
-    padding: 0; }
-    header .block_projects {
-      padding-left: 5px; }
-      header .block_projects .first_line {
-        flex-direction: column; }
-        header .block_projects .first_line p {
-          margin: 0; }
-      header .block_projects .second_line p {
-        margin-right: 10px;
-        margin-bottom: 0;
-        align-items: center; }
-      header .block_projects .third_line {
-        flex-direction: column;
-        height: auto; }
-        header .block_projects .third_line .input-group {
-          width: 100%; }
-
-  .main_section {
-    padding: 72px calc(50% - 145px); } }
-@media screen and (max-width: 490px) {
-  header {
-    flex-direction: column;
-    align-items: center; } }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+G:\Google_drive\CV\WEBSPARK\style.scss:164
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:686:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:686:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:421:in `media_directive'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:234:in `special_directive'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:209:in `directive'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"... margin: 0 auto\": expected \"{\", was \";\"\A         on line 164 of G:\Google_drive\CV\WEBSPARK\style.scss\A \A 159: <<<<<<< HEAD\A 160:     .content .photo:last-child {\A 161: =======\A 162:     .content div:last-child {\A 163: >>>>>>> 280df2000e6e06aeee18966c1d9cab33a1166126\A 164:       margin: 0 auto;\A 165:     }\A 166:  }\A 167: \A 168: }\A 169: "; }
