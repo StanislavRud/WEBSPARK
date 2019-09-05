@@ -89,15 +89,17 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
 
-    div {
+    .blocks {
       width: 292px;
       height: 292px;
       margin-bottom: 30px;
-
     }
+
     .block1 {
       background-image: url("img/img1.png");
-
+      width: 292px;
+      height: 292px;
+      margin-bottom: 30px;
     }
     .block2 {
       background-image: url("img/img2.png");
@@ -203,22 +205,3 @@ footer{
     align-items: center;
   }
 }
-
-//
-//@media (min-width: 767.98px){
-//  .main_section, header {
-//    padding: 0 calc(50% - 360px);
-//  }
-//}
-//
-//@media (min-width: 991.98px) {
-//  .main_section, header {
-//    padding: 0 calc(50% - 480px);
-//  }
-//}
-//
-//@media (min-width: 1199.98px){
-//  .main_section, header {
-//    padding: 0 calc(50% - 590px);
-//  }
-//}

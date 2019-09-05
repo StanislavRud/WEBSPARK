@@ -56,12 +56,15 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; }
-    .main_section .content div {
+    .main_section .content .blocks {
       width: 292px;
       height: 292px;
       margin-bottom: 30px; }
     .main_section .content .block1 {
-      background-image: url("img/img1.png"); }
+      background-image: url("img/img1.png");
+      width: 292px;
+      height: 292px;
+      margin-bottom: 30px; }
     .main_section .content .block2 {
       background-image: url("img/img2.png"); }
     .main_section .content .block3 {
