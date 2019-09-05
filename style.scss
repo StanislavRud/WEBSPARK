@@ -89,6 +89,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
 
+<<<<<<< HEAD
     .blocks {
       width: 292px;
       height: 292px;
@@ -100,30 +101,43 @@ header {
       width: 292px;
       height: 292px;
       margin-bottom: 30px;
+=======
+    .photo {
+      width: 292px;
+      height: 292px;
+      margin-bottom: 30px;
+      color: white;
+    }
+
+    .block1 {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/img1.png");
+
+>>>>>>> 41cab4327c7763e52a0961a8dee4d83714dae1a9
     }
     .block2 {
-      background-image: url("img/img2.png");
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/img2.png");
     }
+
     .block3 {
-      background-image: url("img/img3.png");
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/img3.png");
     }
     .block4 {
-      background-image: url("img/img4.png");
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/img4.png");
     }
     .block5 {
-      background-image: url("img/img5.png");
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/img5.png");
     }
     .block6 {
-      background-image: url("img/img6.png");
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/img6.png");
     }
     .block7 {
-      background-image: url("img/img7.png");
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/img7.png");
     }
     .block8 {
-      background-image: url("img/img8.png");
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/img8.png");
     }
     .block9 {
-      background-image: url("img/img9.png");
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/img9.png");
     }
   }
 }
@@ -156,7 +170,11 @@ footer{
 
   .main_section {
   padding: 72px calc(50% - 310px);
+<<<<<<< HEAD
+    .content .photo:last-child {
+=======
     .content div:last-child {
+>>>>>>> 280df2000e6e06aeee18966c1d9cab33a1166126
       margin: 0 auto;
     }
  }
