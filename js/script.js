@@ -17,12 +17,3 @@ $(function () {
 
 
 });
-
-
-
-// $(function () {
-//     $('#datetimepicker2').datetimepicker();
-//     $('.glyphicon-remove').click(function () {
-//         $('#datetimepicker2').data("DateTimePicker").clear();
-//     });
-// });

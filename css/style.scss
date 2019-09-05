@@ -4,7 +4,6 @@
   padding: 0;
 }
 
-
 header {
   display: flex;
   padding: 0 calc(50% - 468px);
@@ -89,58 +88,71 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
 
-<<<<<<< HEAD
-    .blocks {
-      width: 292px;
-      height: 292px;
-      margin-bottom: 30px;
-    }
-
-    .block1 {
-      background-image: url("img/img1.png");
-      width: 292px;
-      height: 292px;
-      margin-bottom: 30px;
-=======
     .photo {
       width: 292px;
       height: 292px;
       margin-bottom: 30px;
       color: white;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+
+      .likes_block {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .likes {
+          width: 100%;
+          display: flex;
+          justify-content: space-around;
+
+          div {
+            padding: 5px;
+            p {
+              margin: 0;
+              margin-bottom: 10px;
+            }
+            span {
+              margin-right: 5px;
+            }
+          }
+        }
+      }
     }
 
     .block1 {
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/img1.png");
-
->>>>>>> 41cab4327c7763e52a0961a8dee4d83714dae1a9
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/img1.png");
     }
     .block2 {
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/img2.png");
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/img2.png");
     }
-
     .block3 {
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/img3.png");
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/img3.png");
     }
     .block4 {
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/img4.png");
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/img4.png");
     }
     .block5 {
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/img5.png");
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/img5.png");
     }
     .block6 {
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/img6.png");
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/img6.png");
     }
     .block7 {
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/img7.png");
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/img7.png");
     }
     .block8 {
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/img8.png");
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/img8.png");
     }
     .block9 {
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/img9.png");
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/img9.png");
     }
+
   }
 }
+
 
 footer{
   margin-top: 25px;
@@ -170,11 +182,7 @@ footer{
 
   .main_section {
   padding: 72px calc(50% - 310px);
-<<<<<<< HEAD
     .content .photo:last-child {
-=======
-    .content div:last-child {
->>>>>>> 280df2000e6e06aeee18966c1d9cab33a1166126
       margin: 0 auto;
     }
  }
@@ -217,7 +225,7 @@ footer{
   }
 }
 
-@media screen and (max-width: 490px){
+@media screen and (max-width: 490px) {
   header {
     flex-direction: column;
     align-items: center;
