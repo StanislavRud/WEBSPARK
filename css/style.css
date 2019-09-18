@@ -65,7 +65,9 @@ header {
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
-      align-items: center; }
+      align-items: center;
+      background-color: #0000007d;
+      background-blend-mode: darken; }
       .main_section .content .photo .likes_block {
         display: flex;
         flex-direction: column;
@@ -81,24 +83,26 @@ header {
               margin-bottom: 10px; }
             .main_section .content .photo .likes_block .likes div span {
               margin-right: 5px; }
+    .main_section .content .photo:hover {
+      background-color: transparent; }
     .main_section .content .block1 {
-      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/img1.png"); }
+      background-image: url("../img/img1.png"); }
     .main_section .content .block2 {
-      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/img2.png"); }
+      background-image: url("../img/img2.png"); }
     .main_section .content .block3 {
-      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/img3.png"); }
+      background-image: url("../img/img3.png"); }
     .main_section .content .block4 {
-      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/img4.png"); }
+      background-image: url("../img/img4.png"); }
     .main_section .content .block5 {
-      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/img5.png"); }
+      background-image: url("../img/img5.png"); }
     .main_section .content .block6 {
-      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/img6.png"); }
+      background-image: url("../img/img6.png"); }
     .main_section .content .block7 {
-      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/img7.png"); }
+      background-image: url("../img/img7.png"); }
     .main_section .content .block8 {
-      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/img8.png"); }
+      background-image: url("../img/img8.png"); }
     .main_section .content .block9 {
-      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/img9.png"); }
+      background-image: url("../img/img9.png"); }
 
 footer {
   margin-top: 25px; }

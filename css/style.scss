@@ -98,6 +98,8 @@ header {
       flex-direction: column;
       justify-content: flex-end;
       align-items: center;
+      background-color: #0000007d;
+      background-blend-mode: darken;
 
       .likes_block {
         display: flex;
@@ -122,32 +124,37 @@ header {
       }
     }
 
-    .block1 {
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/img1.png");
+    .photo:hover {
+      background-color: transparent;
     }
+
+    .block1 {
+      background-image: url("../img/img1.png");
+    }
+
     .block2 {
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/img2.png");
+      background-image: url("../img/img2.png");
     }
     .block3 {
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/img3.png");
+      background-image: url("../img/img3.png");
     }
     .block4 {
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/img4.png");
+      background-image: url("../img/img4.png");
     }
     .block5 {
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/img5.png");
+      background-image: url("../img/img5.png");
     }
     .block6 {
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/img6.png");
+      background-image: url("../img/img6.png");
     }
     .block7 {
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/img7.png");
+      background-image: url("../img/img7.png");
     }
     .block8 {
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/img8.png");
+      background-image: url("../img/img8.png");
     }
     .block9 {
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/img9.png");
+      background-image: url("../img/img9.png");
     }
 
   }
